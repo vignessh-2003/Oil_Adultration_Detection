@@ -42,7 +42,3 @@ The following diagram illustrates the overall architecture of the system:
 2. The Arduino microcontroller processes this data to detect abnormalities that might indicate adulteration.
 3. If adulteration is detected (based on predefined thresholds for viscosity, temperature, etc.), the buzzer is triggered, and the results are displayed on the LCD screen.
 4. The system allows user interaction via the keypad, enabling parameter customization.
-
----
-
-Feel free to replace the `./image.png` with the correct path to your project architecture image.
