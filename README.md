@@ -8,6 +8,15 @@ The **Oil Adulteration Monitoring System** leverages a combination of sensors to
 
 The key highlight of this project is the **handmade viscosity sensor**, specifically designed to detect changes in the oil's flow properties, which often signal adulteration.
 
+## Project Architecture
+
+The following diagram illustrates the overall architecture of the system:
+
+![Project Architecture](./Architecture.png)
+
+*The image shows the various sensors interfacing with the Arduino microcontroller, which processes data and alerts the user via a buzzer and LCD display.*
+
+
 ## Hardware Components Used
 
 - **Arduino Uno R3**: The microcontroller serving as the brain of the system.
@@ -27,14 +36,6 @@ The key highlight of this project is the **handmade viscosity sensor**, specific
 4. **Temperature_Sensor_Base_Code.ino**: Reads temperature values from the temperature sensor and sends the data to the controller.
 5. **Voltmeter_Base_Code.ino**: Manages the voltage readings for sensor calibration and system diagnostics.
 
-## Project Architecture
-
-The following diagram illustrates the overall architecture of the system:
-
-![Project Architecture](![Uploading image.png…]()
-)
-
-*The image shows the various sensors interfacing with the Arduino microcontroller, which processes data and alerts the user via a buzzer and LCD display.*
 
 ## How It Works
 
